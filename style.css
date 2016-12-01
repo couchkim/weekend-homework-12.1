@@ -1,14 +1,3 @@
-/*ul.promos{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:stretch;
-    background-color:darkorange;
-    color:white;
-    position:absolute;
-    list-style-type:none;
-    padding: 10px;    
-}*/
 
 ul.promos{
     display:block;
@@ -16,11 +5,16 @@ ul.promos{
     background-color:darkorange;
     color:white;
     position:absolute;
-    list-style-type:none;
-    
+    list-style-type:none;   
 }
 
-li{
+li.savings{
     display:inline-block;
     padding:6px;
+}
+
+#free{
+    background-color:brown;
+    color:white;
+   border:4px solid darkorange; 
 }
