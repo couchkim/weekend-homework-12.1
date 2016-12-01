@@ -30,6 +30,8 @@ nav{
     align-items:center;
     background-color:white;
     position:relative;
+    border-image:url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/master/daily/04-internet/assets/perforated-bottom%402x.png")
+    border-image-repeat:stretch;
 }
 
 #logo{
@@ -40,13 +42,38 @@ ul.categories{
     display:flex;
     flex-direction:row;
     align-items:center;
-    list-style-type: none;
-    
+    list-style-type: none;   
 }
 
 li.links{
     font-size:3em;
-    padding:15px;
-    
+    padding:15px;   
 }
+
+cart{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+button{
+    padding:10px;
+    border-radius: 15px;
+    background-color:white;
+    margin-left: 50px;
+}
+
+.border{
+    border-image-repeat:repeat;
+}
+
+
+    
+
+/*
+shop{
+    width:
+    height:
+    background-url
+}*/
 
