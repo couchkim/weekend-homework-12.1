@@ -67,6 +67,18 @@ button{
     border-image-repeat:repeat;
 }
 
+ul.tieRow{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    list-style-type: none; 
+    background-color: #f4f4f4;  
+}
+
+li.tie{
+    margin:0 auto;
+}
+
 
     
 
