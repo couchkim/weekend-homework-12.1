@@ -30,8 +30,8 @@ nav{
     align-items:center;
     background-color:white;
     position:relative;
-    border-image:url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/master/daily/04-internet/assets/perforated-bottom%402x.png")
-    border-image-repeat:stretch;
+    /*border-image:url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/master/daily/04-internet/assets/perforated-bottom%402x.png")*/
+    /*border-image-repeat:stretch;*/
 }
 
 #logo{
