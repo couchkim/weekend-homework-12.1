@@ -120,7 +120,7 @@ h1{
 }  
 
 .product img{
-    width: 510px;
+    width: 100%;
 }
 
 p #square{
@@ -153,7 +153,19 @@ a{
     text-decoration:none;
 }
 
+.media{
+    display:inline-block;
+    width:20%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 20px solid white;
+    vertical-align:top;
+}
 
+.media img{
+    width:100%;
+
+}
 
 /*
 shop{
