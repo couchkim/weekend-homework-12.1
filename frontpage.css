@@ -63,9 +63,9 @@ button{
     margin-left: 50px;
 }
 
-.border{
-    border-image-repeat:repeat;
-}
+/*.border{*/
+    /*border-image-repeat:repeat;*/
+/*}*/
 
 ul.tieRow{
     display:flex;
@@ -75,10 +75,15 @@ ul.tieRow{
     background-color: #f4f4f4;  
     margin:0;
     
+  
+    
 }
 
 li.tie{
     margin:0 auto;
+      text-align:center;
+      padding:5px;
+      font-size:1.5em
 }
 
 li tie img{
