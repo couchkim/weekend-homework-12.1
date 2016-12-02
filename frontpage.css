@@ -1,5 +1,6 @@
-*{
+body{
     font-family:Tahoma;
+    font-weight:lighter;
 }
 
 
@@ -30,8 +31,6 @@ nav{
     align-items:center;
     background-color:white;
     position:relative;
-    /*border-image:url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/master/daily/04-internet/assets/perforated-bottom%402x.png")*/
-    /*border-image-repeat:stretch;*/
 }
 
 #logo{
@@ -63,10 +62,6 @@ button{
     margin-left: 50px;
 }
 
-/*.border{*/
-    /*border-image-repeat:repeat;*/
-/*}*/
-
 ul.tieRow{
     display:flex;
     flex-direction:row;
@@ -75,14 +70,18 @@ ul.tieRow{
     background-color: #f4f4f4;  
     margin:0;
     
-  
-    
+}
+
+.ties{
+    border-top: 5px solid transparent;
+    border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
+    border-image-outset: -0.5;
+
 }
 
 li.tie{
     margin:0 auto;
       text-align:center;
-      padding:5px;
       font-size:1.5em
 }
 
