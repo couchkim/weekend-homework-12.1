@@ -79,6 +79,18 @@ li.tie{
     margin:0 auto;
 }
 
+li tie img{
+    width:106px;
+}
+
+#tagline{
+    background-color: #f4f4f4;
+    font-size:5em;
+    font-weight:bold;
+    font-family:Tahoma;
+    text-align:center;
+}
+
 
     
 
