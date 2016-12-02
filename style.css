@@ -73,6 +73,8 @@ ul.tieRow{
     align-items:stretch;
     list-style-type: none; 
     background-color: #f4f4f4;  
+    margin:0;
+    
 }
 
 li.tie{
@@ -85,10 +87,16 @@ li tie img{
 
 #tagline{
     background-color: #f4f4f4;
-    font-size:5em;
+    font-size:3em;
     font-weight:bold;
     font-family:Tahoma;
     text-align:center;
+    padding:50px;
+
+}
+
+h1{
+    margin:0;
 }
 
 
