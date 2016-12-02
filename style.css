@@ -92,7 +92,36 @@ li tie img{
 }
 
 
-    
+
+.product{
+    position:relative;
+    display:inline-block;
+    width:28%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 20px solid white;
+}
+
+.product p{
+    position:absolute;
+    top:4px;
+    right:10px;
+    font-size:2em;
+    font-weight:bold;
+
+}  
+
+.product img{
+    width: 510px;
+}
+
+p #square{
+    position:absolute;
+    top:20px;
+    right: 10px;
+
+}
+
 
 /*
 shop{
