@@ -144,7 +144,7 @@ p #square{
     font-weight:normal;
 }
 
-.story p{
+.story a{
     color: dodgerblue;
     font-size:1.7em;
 }
@@ -152,6 +152,8 @@ p #square{
 a{
     text-decoration:none;
 }
+
+
 
 /*
 shop{
