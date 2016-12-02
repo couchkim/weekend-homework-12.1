@@ -167,6 +167,26 @@ a{
 
 }
 
+.footerInfo{
+    background-color:#f4f4f4;
+}
+
+.info{
+    display:inline-block;
+    width:20%;
+    padding: 5px;
+    border: 20px solid white;
+    vertical-align:top;
+}
+
+ul.info{
+    list-style-type:none;
+}
+
+#topic{
+    font-weight:bold;
+}
+
 /*
 shop{
     width:
