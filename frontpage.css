@@ -139,6 +139,10 @@ p #square{
     width:75%;
     margin:0 auto;
     padding: 50px;
+     border-bottom: 5px solid transparent;
+    border-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/master/daily/04-internet/assets/hatch-light@2x.png?raw=true") 15 0 repeat;
+    border-image-outset: -0.5;
+    width:100%
 
 }
 
@@ -146,6 +150,8 @@ p #square{
     font-size:2em;
     font-style:italic;
     font-weight:normal;
+    width:80%;
+    margin:0 auto;
 }
 
 .story a{
@@ -156,6 +162,7 @@ p #square{
 a{
     text-decoration:none;
 }
+
 
 .media{
     display:inline-block;
@@ -171,37 +178,87 @@ a{
 
 }
 
+#pick{
+    color:blue;
+}
+
 .footerInfo{
     background-color:#f4f4f4;
 }
 
 .info{
     display:inline-block;
-    width:20%;
+    width:15%;
     padding: 5px;
-    border: 20px solid white;
     vertical-align:top;
 }
 
 ul.info{
     list-style-type:none;
     color:darkgray;
+    border:none;
+}
+
+.weeklyRow{
+    border-bottom: 5px solid transparent;
+    border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
+    border-image-outset: -0.5;
 }
 
 #topic{
     font-weight:bold;
 }
 
+.help{
+    display:inline-block;
+    width:20%;
+    background-color:darkgray;
+    margin-top:20px;
+    padding:15px;
+    position:relative;
+
+}
+
+.contact{
+    border:none;
+    color:white;
+    vertical-align:center;
+    
+
+}
+
+.contact h1{
+    font-style:italic;
+    font-size:1.5em;
+    font-weight:normal;
+}
+
+
 .footer{
     background-color:#f4f4f4;
-    width:80%;
-    margin:10px auto;
+    width:100%;
+    margin:0 auto;
 
 }
 
 .footer p{
     display:inline;
     color:darkgray;
+    padding:10px;
+    font-size:.7em;
+    
+}
+
+button{
+    background-color:dodgerblue;
+    color:white;
+    border-radius:5px;
+}
+
+.contact button{
+    position:absolute;
+    bottom:5px;
+    right:2px;
 }
 
 /*
