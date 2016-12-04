@@ -1,5 +1,5 @@
 body{
-    font-family:Tahoma;
+    font-family:Arial;
     font-weight:lighter;
 }
 
@@ -31,6 +31,9 @@ nav{
     align-items:center;
     background-color:white;
     position:relative;
+    border-bottom: 5px solid transparent;
+    border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
+    border-image-outset: -0.5;
 }
 
 #logo{
@@ -41,7 +44,8 @@ ul.categories{
     display:flex;
     flex-direction:row;
     align-items:center;
-    list-style-type: none;   
+    list-style-type: none;  
+    margin-right:50px; 
 }
 
 li.links{
@@ -49,17 +53,31 @@ li.links{
     padding:15px;   
 }
 
-cart{
+.cart{
     display:flex;
     flex-direction:row;
     align-items:center;
+    border:2px solid lightgray;
+    color:darkgray;
+}
+.sign{
+    text-align:right;
 }
 
-button{
-    padding:10px;
-    border-radius: 15px;
-    background-color:white;
-    margin-left: 50px;
+.sign p{
+display:inline;
+color:darkgray;
+font-size:.8em;
+padding:5px;
+}
+.search{
+    margin:10px
+}
+
+input[type=text]{
+    border:2px solid lightgray;
+    margin-bottom:10px;
+    color:lightgray;
 }
 
 ul.tieRow{
@@ -73,9 +91,7 @@ ul.tieRow{
 }
 
 .ties{
-    border-top: 5px solid transparent;
-    border-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/perforated-bottom.png") 5 0 repeat;
-    border-image-outset: -0.5;
+    position:relative;
 
 }
 
