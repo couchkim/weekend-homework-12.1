@@ -81,10 +81,17 @@ padding:5px;
 }
 
 input[type=text]{
-    border:2px solid lightgray;
+    border:7px solid lightgray;
     margin-bottom:10px;
     color:lightgray;
+    padding:10px;
 }
+
+/*.search form{*/
+    /*background: url(https://www.sircon.com/images/search_icon.png) no-repeat scroll 2px 2px;*/
+/*padding-left:30px;*/
+/*}*/
+
 
 ul.tieRow{
     display:flex;
@@ -142,8 +149,14 @@ h1{
     right:10px;
     font-size:2em;
     font-weight:bold;
+    padding-right:10px;
 
 }  
+
+#pocket{
+    width:25%;
+    text-align:right;
+}
 
 .product img{
     width: 100%;
@@ -209,10 +222,13 @@ a{
 }
 
 input[type=email]{
-    border:2px solid lightgray;
+    border:6px solid lightgray;
     margin-bottom:10px;
     color:lightgray;
+    padding:10px;
+    
 }
+
 
 #pick{
     color:blue;
@@ -274,6 +290,7 @@ ul.info{
 }
 
 
+
 .footer{
     background-color:#f4f4f4;
     width:100%;
@@ -289,6 +306,10 @@ ul.info{
     
 }
 
+.help{
+    color:white;
+}
+
 button{
     background-color:dodgerblue;
     color:white;
@@ -300,6 +321,9 @@ button{
     bottom:5px;
     right:2px;
 }
+
+
+
 
 /*
 shop{
